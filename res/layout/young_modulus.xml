@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+
+   	<TextView
+        style="@style/calculation_title"
+        android:id="@+id/title"
+        android:text="@string/main_young_modulus_button"/> 
+           
+    <LinearLayout style="@style/calculate_button_layout"
+        android:id="@+id/calculate_button_layout">
+        <Button android:id="@+id/calculate_button"
+			style="@style/button_centered"
+			android:text="@string/calculate" />
+	</LinearLayout>
+	
+    <ScrollView
+        android:layout_below="@id/title"
+        android:layout_above="@id/calculate_button_layout"
+        android:layout_height="fill_parent"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:layout_width="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+			<LinearLayout style="@style/tabular_layout">
+			   	<TextView 		       
+					style="@style/textview_left_weighted_width"
+			        android:text="@string/material"
+			        android:layout_weight="2">        
+			    </TextView>
+				<Button      
+					android:id="@+id/selected_material" 
+					android:text="@string/select_material"
+					style="@style/button_left_weighted_width"
+					android:layout_weight="3">      
+				</Button>  
+			</LinearLayout>
+
+			<LinearLayout style="@style/tabular_layout">
+				<TextView 		       
+					style="@style/textview_left_weighted_width"
+			        android:text="@string/temperature_with_kelvin"
+			        android:layout_weight="2">        
+			    </TextView>
+			    <EditText
+			        android:id="@+id/input_temperature"
+					style="@style/edittext_left_weighted_width"
+			       	android:layout_weight="3">
+			        <requestFocus />  
+			    </EditText>
+			</LinearLayout>
+            <LinearLayout 
+		  		android:layout_width = "fill_parent"
+		  		android:layout_height = "wrap_content"
+		  		android:orientation="vertical"
+		  		android:id="@+id/equation_layout"
+		  		android:visibility="gone">
+	            <TextView 
+			    	android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content"
+			    	android:textColor="#151B54"
+			    	android:paddingTop="10dp"
+			    	android:paddingRight="10dp"
+			    	android:paddingLeft="10dp"
+			    	android:text="@string/young_modulus_equation"
+			    	android:textStyle="bold"
+			    	android:background="@color/white"
+			    	android:textSize="14sp">  
+				</TextView>  
+	         	<TextView
+			   		android:layout_width="fill_parent"
+			    	android:layout_height="wrap_content"
+			    	android:paddingTop="5dp"
+			    	android:paddingBottom="10dp"
+			    	android:paddingRight="10dp"
+			    	android:paddingLeft="10dp"
+			    	android:textColor="#151B54"
+			    	android:background="@color/white"
+			    	android:id="@+id/young_modulus_equation_text_view"
+			    	android:textSize="16sp">  
+				</TextView>
+            </LinearLayout>
+	        <TableLayout 		  		
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:id="@+id/table_layout"
+	            android:visibility="gone">   
+	       <TableRow>
+	            <include layout="@layout/common_table_title_content_layout" android:layout_width = "0dp" android:layout_height= "fill_parent" android:layout_weight= "1" android:id="@+id/young_modulus_table_title" />
+			</TableRow>         
+	        <TableRow>     
+	 			<include layout="@layout/common_table_centered_content_layout" android:layout_width = "0dp" android:layout_weight= "3" android:layout_height= "fill_parent" android:id="@+id/attributes_1_text" />
+		        <include layout="@layout/common_table_centered_content_layout" android:layout_width = "0dp" android:layout_weight= "3" android:layout_height= "fill_parent" android:id="@+id/attributes_1_value" />
+	    	</TableRow>
+	    	
+	         <TableRow>     
+	 			<include layout="@layout/common_table_centered_content_layout" android:layout_width = "0dp" android:layout_weight= "3" android:layout_height= "fill_parent" android:id="@+id/attributes_2_text" />
+		        <include layout="@layout/common_table_centered_content_layout" android:layout_width = "0dp" android:layout_weight= "3" android:layout_height= "fill_parent" android:id="@+id/a_value" />
+	    	</TableRow>
+	    	
+	        <TableRow>     
+	 			<include layout="@layout/common_table_centered_content_layout" android:layout_width = "0dp" android:layout_weight= "3" android:layout_height= "fill_parent" android:id="@+id/attributes_3_text" />
+		        <include layout="@layout/common_table_centered_content_layout" android:layout_width = "0dp" android:layout_weight= "3" android:layout_height= "fill_parent" android:id="@+id/b_value" />
+	    	</TableRow>
+	    	
+	        <TableRow>     
+	 			<include layout="@layout/common_table_centered_content_layout" android:layout_width = "0dp" android:layout_weight= "3" android:layout_height= "fill_parent" android:id="@+id/attributes_4_text" />
+		        <include layout="@layout/common_table_centered_content_layout" android:layout_width = "0dp" android:layout_weight= "3" android:layout_height= "fill_parent" android:id="@+id/c_value" />
+	    	</TableRow>
+	    	
+	        <TableRow>     
+	 			<include layout="@layout/common_table_centered_content_layout" android:layout_width = "0dp" android:layout_weight= "3" android:layout_height= "fill_parent" android:id="@+id/attributes_5_text" />
+		        <include layout="@layout/common_table_centered_content_layout" android:layout_width = "0dp" android:layout_weight= "3" android:layout_height= "fill_parent" android:id="@+id/d_value" />
+	    	</TableRow>
+	    	
+	        <TableRow>     
+	 			<include layout="@layout/common_table_centered_content_layout" android:layout_width = "0dp" android:layout_weight= "3" android:layout_height= "fill_parent" android:id="@+id/attributes_6_text" />
+		        <include layout="@layout/common_table_centered_content_layout" android:layout_width = "0dp" android:layout_weight= "3" android:layout_height= "fill_parent" android:id="@+id/e_value" />
+	    	</TableRow>
+	
+	        <TableRow>     
+	 			<include layout="@layout/common_table_centered_content_layout" android:layout_width = "0dp" android:layout_weight= "3" android:layout_height= "fill_parent" android:id="@+id/attributes_7_text" />
+		        <include layout="@layout/common_table_centered_content_layout" android:layout_width = "0dp" android:layout_weight= "3" android:layout_height= "fill_parent" android:id="@+id/attribute_1_value" />
+	    	</TableRow>
+	        
+	        <TableRow>     
+	 			<include layout="@layout/common_table_centered_content_layout" android:layout_width = "0dp" android:layout_weight= "3" android:layout_height= "fill_parent" android:id="@+id/attributes_8_text" />
+		        <include layout="@layout/common_table_centered_content_layout" android:layout_width = "0dp" android:layout_weight= "3" android:layout_height= "fill_parent" android:id="@+id/attribute_2_value" />
+	    	</TableRow>
+	    	
+	        <TableRow>     
+	 			<include layout="@layout/common_table_centered_content_layout" android:layout_width = "0dp" android:layout_weight= "3" android:layout_height= "fill_parent" android:id="@+id/attributes_9_text" />
+		        <include layout="@layout/common_table_centered_content_layout" android:layout_width = "0dp" android:layout_weight= "3" android:layout_height= "fill_parent" android:id="@+id/attribute_3_value" />
+	    	</TableRow>  
+	    	   
+	        
+	        </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+    
+    
+
+
+
+
+</RelativeLayout>

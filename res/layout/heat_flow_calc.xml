@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:id="@+id/parent_view"
+    android:background="@drawable/background">
+			
+    <TextView style="@style/calculation_title"
+        android:id="@+id/title"
+        android:text="@string/main_heat_flow_calc_button"/>   
+         
+    <LinearLayout style="@style/calculate_button_layout"
+        android:id="@+id/calculate_button_layout">
+        <Button android:id="@+id/calculate_button"
+			style="@style/button_centered"
+			android:text="@string/calculate" />
+	</LinearLayout>
+    
+    <ScrollView
+        android:layout_below="@id/title"
+        android:layout_above="@id/calculate_button_layout"
+        android:layout_height="fill_parent"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:layout_width="fill_parent">
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height ="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout style="@style/tabular_layout">
+			   	<TextView 		       
+					style="@style/textview_left_weighted_width"
+			        android:text="@string/material"
+			        android:layout_weight="2">        
+			    </TextView>
+				<Button      
+					android:id="@+id/selected_material" 
+					android:text="@string/select_material"
+					style="@style/button_left_weighted_width"
+					android:layout_weight="3">      
+				</Button>  
+			</LinearLayout>
+            <LinearLayout style="@style/tabular_layout">
+			   	<TextView 		       
+			        style="@style/textview_left_weighted_width"
+			        android:text="@string/temperature_lower_with_kelvin"
+			        android:layout_weight="2">        
+			    </TextView>
+			    <EditText
+			        android:id="@+id/input_temperature_lower"
+					style="@style/edittext_left_weighted_width"
+					android:layout_weight="3">
+			        <requestFocus />  
+			    </EditText>
+		    </LinearLayout>
+		    <LinearLayout style="@style/tabular_layout">
+			    <TextView 		       
+			        style="@style/textview_left_weighted_width"
+			        android:text="@string/temperature_upper_with_kelvin"
+			        android:layout_weight="2">        
+			    </TextView>
+			     <EditText
+			        android:id="@+id/input_temperature_upper"
+			        style="@style/edittext_left_weighted_width"
+			        android:layout_weight="3">
+			        <requestFocus />  
+		    	</EditText>
+		    </LinearLayout>  	
+		    <LinearLayout style="@style/tabular_layout">
+			    <TextView 
+			        style="@style/textview_left_weighted_width"
+				    android:text="@string/length"
+			        android:layout_weight="2">        
+			    </TextView>  
+			    <EditText
+			       android:id="@+id/length_edit_text"
+			       style="@style/edittext_left_weighted_width"
+			       android:layout_weight="3">
+			     <requestFocus /> 
+			     </EditText> 
+			</LinearLayout>
+			<LinearLayout style="@style/tabular_layout">
+			   	<TextView 		       
+			        style="@style/textview_left_weighted_width"
+			        android:text="@string/shape"
+			        android:layout_weight="2">        
+			    </TextView>
+				<Button
+				    	style="@style/button_left_weighted_width"
+					    android:id="@+id/cross_sectional_shape_button"
+						android:layout_weight="3"
+						android:text="@string/select_shape"
+						/>	
+		   	 </LinearLayout>
+		    <LinearLayout 
+		        android:id="@+id/area_attribute_1_layout"
+		        style="@style/tabular_layout">
+			    <TextView 
+			        android:id="@+id/area_attribute_1_text"
+			        style="@style/textview_left_weighted_width"
+			        android:layout_weight="2">        
+			    </TextView>  
+			    <EditText
+			       android:id="@+id/area_attribute_1_edit_text"
+			       style="@style/edittext_left_weighted_width"
+			       android:layout_weight="3">
+			     </EditText> 
+			</LinearLayout>
+		    <LinearLayout 
+		        android:id="@+id/area_attribute_2_layout"
+				style="@style/tabular_layout">
+			    <TextView 
+			        android:id="@+id/area_attribute_2_text"
+			        style="@style/textview_left_weighted_width"
+			        android:layout_weight="2">        
+			    </TextView>  
+			    <EditText
+			       android:id="@+id/area_attribute_2_edit_text"
+			       style="@style/edittext_left_weighted_width"
+			       android:layout_weight="3">
+			     </EditText> 
+			</LinearLayout>
+		    <TextView 		       
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:paddingLeft="10dp"
+			        android:paddingBottom="10dp"
+			        android:textColor="#151B54"
+			        android:text="@string/cross_sectional"
+			        android:textSize="13sp">        
+		   </TextView> 
+		</LinearLayout>
+    </ScrollView>
+
+    
+</RelativeLayout>

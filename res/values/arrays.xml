@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	
+	<array name="fluid_properties_array">
+		<item>@string/HE3</item>
+		<item>@string/HE4</item>
+	    <item>@string/p_H2</item>
+		<item>@string/n_H2</item>
+		<item>@string/Ne</item>
+		<item>@string/N2</item>
+		<item>@string/O2</item>
+	</array>
+	
+	<array name="cross_sectional_shape_array">
+	    <item>@string/circular</item>
+		<item>@string/rectangular</item>
+		<item>@string/square</item>
+		<item>@string/area</item>
+		<item>@string/rod</item>
+	</array>
+	
+	<string-array name="specific_heat_material_array">
+		<item>@string/aluminum_3003f_5083_6061T6</item>
+		<item>@string/apiezon_n</item>
+		<item>@string/beryllium</item>
+		<item>@string/copper</item>
+		<item>@string/fiberglass_epoxy</item>
+		<item>@string/indium</item>
+		<item>@string/invar_fe36ni</item>
+		<item>@string/nickel_steel_fe225ni_fe325ni_fe50ni_fe90ni</item>
+		<item>@string/platinum</item>
+		<item>@string/polyamide_nylon</item>
+		<item>@string/polyimide_kapton</item>
+		<item>@string/polystyrene_density_99_point_96</item>
+		<item>@string/polystyrene_density_9_point_93</item>
+		<item>@string/polystyrene_density_60_point_07</item>
+		<item>@string/polyurethane_density_49_point_02</item>
+		<item>@string/polyurethane_density_389_point_25</item>
+		<item>@string/pvc_polyvinyl_chloride_density_48_point_05</item>
+		<item>@string/stainless_steel_304</item>
+        <item>@string/stainless_steel_304l</item>
+        <item>@string/stainless_steel_310_temperature_range_in_kelvin_4_to_47</item>
+        <item>@string/stainless_steel_310_temperature_range_in_kelvin_47_to_300</item>
+        <item>@string/stainless_steel_316_temperature_range_in_kelvin_4_to_50</item>
+        <item>@string/stainless_steel_316_temperature_range_in_kelvin_50_to_300</item>
+        <item>@string/teflon</item>
+    </string-array>
+	
+	
+    <string-array name="thermal_conductivity_material_array">
+		<item>@string/aluminum_1100</item>
+		<item>@string/aluminum_3003f</item>
+		<item>@string/aluminum_5083</item>
+		<item>@string/aluminum_6061_T6</item>
+		<item>@string/aluminum_6063_T5</item>
+        <item>@string/balsa_density_6</item>
+        <item>@string/balsa_density_11</item>
+        <item>@string/beechwood_phenolic_cross_laminate_grain_direction</item>
+        <item>@string/beechwood_phenolic_cross_laminate_flatwise</item>
+        <item>@string/beryllium_copper</item>
+        <item>@string/brass</item>
+        <item>@string/copper_RRR_50</item>
+        <item>@string/copper_RRR_100</item>
+        <item>@string/copper_RRR_150</item>
+        <item>@string/copper_RRR_300</item>
+        <item>@string/copper_RRR_500</item>
+        <item>@string/fiberglass_epoxy_normal_direction</item>
+        <item>@string/fiberglass_epoxy_warp_direction</item>
+        <item>@string/glass_fabric_polyester_helium_warp_direction</item>
+        <item>@string/glass_fabric_polyester_nitrogen_warp_direction</item>
+        <item>@string/glass_fabric_polyester_nitrogen_normal_direction</item>
+        <item>@string/inconel_718</item>
+        <item>@string/invar_fe36ni</item>
+ 		<!-- To do    
+ 		<item>@string/kevlar_49_fiber</item>
+        <item>@string/kevlar_49_composite</item> -->
+        <!--
+        remove from the web  
+        <item>@string/lead</item>
+        -->
+        <item>@string/molybdenum</item>
+        <item>@string/nickel_steel_fe225ni</item>
+        <item>@string/nickel_steel_fe325ni</item>
+        <item>@string/nickel_steel_fe50ni</item>
+        <item>@string/nickel_steel_fe90ni</item>
+        <item>@string/platinum</item>
+        <item>@string/polyamide_nylon</item>
+        <item>@string/polyethylene_terephthalate_mylar</item>
+        <item>@string/polyimide_kapton</item>
+        <item>@string/polystyrene_density_31_point_88</item>
+        <item>@string/polystyrene_density_32_point_04</item>
+        <item>@string/polystyrene_density_49_point_98</item>
+        <item>@string/polystyrene_density_99_point_96</item>
+        <item>@string/polyurethane_density_31_point_88</item>
+        <item>@string/polyurethane_density_32_point_04</item>
+        <item>@string/polyurethane_density_49_point_02</item>
+        <item>@string/polyurethane_density_64_point_08</item>
+        <item>@string/pvc_polyvinyl_chloride_density_20_point_02</item>
+        <item>@string/pvc_polyvinyl_chloride_density_56_point_06</item>
+        <item>@string/stainless_steel_304</item>
+        <item>@string/stainless_steel_304l</item>
+        <item>@string/stainless_steel_310</item>
+        <item>@string/stainless_steel_316</item>
+        <item>@string/teflon</item>
+        <item>@string/ti_6al_4v</item>
+        <item>@string/titanium_15_3_3_3</item>
+    </string-array>
+    
+    <string-array name="young_modulus_material_array">
+        <item>@string/aluminum_5083</item>
+        <item>@string/aluminum_6061_T6</item>
+        <item>@string/invar_fe36ni</item>
+        <item>@string/nickel_steel_fe225ni</item>
+        <item>@string/nickel_steel_fe325ni</item>
+        <item>@string/nickel_steel_fe50ni</item>
+        <item>@string/nickel_steel_fe90ni</item>  
+        <item>@string/stainless_steel_304_temperature_range_in_kelvin_5_to_57</item>
+        <item>@string/stainless_steel_304_temperature_range_in_kelvin_57_to_293</item>  
+        <item>@string/stainless_steel_310</item>
+        <item>@string/stainless_steel_316_temperature_range_in_kelvin_8_to_50</item>
+        <item>@string/stainless_steel_316_temperature_range_in_kelvin_50_to_294</item>   
+     </string-array>
+     
+     <string-array name="linear_expansion_material_array">
+        <item>@string/aluminum_3003f_5083_6061T6</item>
+        <item>@string/beechwood_phenolic_unidirectional_flatwise</item>
+        <item>@string/beechwood_phenolic_unidirectional_grain_direction</item>
+        <item>@string/beechwood_phenolic_cross_laminate_grain_direction</item>
+        <item>@string/beryllium_a_axis</item>
+        <item>@string/beryllium_c_axis</item>
+        <item>@string/beryllium_polyscrystalline</item>
+        <item>@string/beryllium_copper</item>
+        <item>@string/fiberglass_epoxy_normal_direction</item>
+        <item>@string/fiberglass_epoxy_warp_direction</item>
+        <item>@string/glass_fabric_polyester_normal_direction</item>
+        <item>@string/glass_fabric_polyester_warp_direction</item>
+        <item>@string/glass_mat_epoxy_chopped_strand_mat</item>
+        <item>@string/glass_mat_epoxy_continuous_strand</item>
+        <item>@string/inconel_718</item>
+        <item>@string/invar_fe36ni</item>
+        <item>@string/molybdenum</item>
+        <item>@string/nickel_steel_fe225ni_fe325ni_fe50ni_fe90ni</item>
+        <item>@string/polyamide_nylon</item>
+        <item>@string/polystyrene_density_51_point_42_temperature_range_in_kelvin_4_to_105</item>
+        <item>@string/polystyrene_density_51_point_42_temperature_range_in_kelvin_105_to_278</item>
+        <item>@string/polystyrene_density_102_point_2_temperature_range_in_kelvin_4_to_102</item>
+      	<item>@string/polystyrene_density_102_point_2_temperature_range_in_kelvin_102_to_286</item>
+      	<item>@string/polyurethane_density_32_point_04_freon_blown_parallel_to_foam_rise</item>
+		<item>@string/polyurethane_density_64_point_07_co2_blown_parallel_to_foam_rise</item>
+     	<item>@string/pvc_polyvinyl_chloride</item>
+     	<item>@string/sapphire</item>
+     	<item>@string/stainless_steel_304_304l_310_316</item>
+     	<item>@string/teflon</item>
+     	<item>@string/ti_6al_4v</item>
+     </string-array>
+     
+     
+      <string-array name="expansion_coefficient_material_array">
+		<item>@string/sapphire</item> 
+		<item>@string/copper</item>
+     </string-array>
+</resources>

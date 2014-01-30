@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding = "60dp"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+    
+      <LinearLayout  
+          	android:layout_alignParentTop="true"
+     		android:layout_width="fill_parent" 
+ 	   		android:layout_height="wrap_content" 
+ 	    	android:id="@+id/main_title_layout"
+ 	    	android:paddingBottom="60dp"
+ 	    	android:gravity="center_horizontal|top"
+ 	    	android:orientation="vertical"> 
+    		<TextView
+        		android:layout_width = "wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/app_name"
+		        android:textColor="#151B54"
+		        android:textStyle="bold"
+		        android:textSize="60sp"/>	
+    		<TextView
+		        android:layout_height="wrap_content"
+		        android:layout_width="wrap_content"
+		        android:text="@string/by_cryovac"
+		        android:textSize="30sp"
+		        android:textColor="@color/black"/>
+    </LinearLayout>	
+
+    <View android:layout_width="fill_parent"       
+ 	    android:id="@+id/main_bottom_layout"
+	    android:layout_alignParentBottom="true"
+	    android:layout_height="60dp" />  
+    
+    <ScrollView
+ 	    android:layout_below="@id/main_title_layout"
+ 	    android:layout_above="@id/main_bottom_layout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="outsideInset">   
+	    <LinearLayout        
+	        android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:paddingRight="60dp"
+		    android:paddingLeft="60dp"
+	        android:orientation="vertical">    
+		
+			<Button
+	            android:id="@+id/main_about_button"
+	            style="@style/button_main_menu_xlarge"
+	            android:text="@string/about" />
+			<View android:layout_width="fill_parent" android:layout_height="60dp" /> 
+				        <!--  
+			remove due to unclear source information
+				-->
+			<Button
+			    style="@style/button_main_menu_xlarge"
+				android:text = "@string/main_cryogenic_fluid_properties_button"
+				android:id="@+id/main_cryogenic_fluid_properties_button"/> 
+			<View android:layout_width="fill_parent" android:layout_height="60dp" />	
+			<Button
+			    style="@style/button_main_menu_xlarge"
+				android:text = "@string/main_heat_flow_calc_button"
+				android:id="@+id/main_heat_flow_button"/> 	
+			<View android:layout_width="fill_parent" android:layout_height="60dp" />    
+			<Button
+			    style="@style/button_main_menu_xlarge"
+				android:text = "@string/main_thermal_conductivity_button"
+				android:id="@+id/main_thermal_conductivity_button"/>
+			<View android:layout_width="fill_parent" android:layout_height="60dp" />    
+			<Button
+			    style="@style/button_main_menu_xlarge"
+				android:text = "@string/main_specific_heat_button"
+				android:id="@+id/main_specific_heat_button"/>
+			<View android:layout_width="fill_parent" android:layout_height="60dp" />    
+			<Button
+			    style="@style/button_main_menu_xlarge"
+				android:text = "@string/main_young_modulus_button"
+				android:id="@+id/main_young_modulus_button"/>
+			<View android:layout_width="fill_parent" android:layout_height="60dp" />    
+			<Button
+			    style="@style/button_main_menu_xlarge"
+				android:text = "@string/main_linear_expansion_button"
+				android:id="@+id/main_linear_expansion_button"/>
+			<View android:layout_width="fill_parent" android:layout_height="60dp" />    
+			<Button
+			    style="@style/button_main_menu_xlarge"
+				android:text = "@string/main_expansion_coefficient_button"
+				android:id="@+id/main_expansion_coefficient_button"/>
+			<View android:layout_width="fill_parent" android:layout_height="60dp" /> 
+	        <Button
+	            android:id="@+id/main_exit_button"
+	            style="@style/button_main_menu_xlarge"
+	            android:text="@string/exit" />
+		</LinearLayout>	   
+	</ScrollView>
+	
+
+</RelativeLayout>

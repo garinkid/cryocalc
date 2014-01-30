@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   	<!-- main menu -->
+    <string name="main_cryogenic_fluid_properties_button">Cryogenic Fluid Properties</string>
+    <string name="main_heat_flow_calc_button">Heat Flow</string>
+    <string name="main_thermal_conductivity_button">Thermal Conductivity</string>
+    <string name="main_specific_heat_button">Specific Heat</string>
+    <string name="main_young_modulus_button">Young\'s Modulus</string>
+    <string name="main_linear_expansion_button">Linear Expansion</string>
+    <string name="main_expansion_coefficient_button">Expansion Coefficient</string>
+    <string name="app_name">CryoCalc</string>
+
+    <string name="about">.. About ..</string>
+    <string name="exit">.. Exit ..</string>
+     
+    <string name="properties_notes_text">"* at boiling point \n ** at melting point"</string>
+    <string name="cryogenic_properties">"Fluid properties:"</string>
+    <string name="select_fluid">"Select fluid"</string>
+    
+    <string name="HE3">"<sup><small><small>3</small></small></sup>He"</string>
+    <string name="HE4">"<sup><small><small>4</small></small></sup>He"</string>
+    <string name="p_H2">"p-H<sub><small><small>2</small></small></sub>"</string>
+    <string name="n_H2">"n-H<sub><small><small>2</small></small></sub>"</string>
+    <string name="Ne">"Ne"</string>
+    <string name="N2">"N<sub><small><small>2</small></small></sub>"</string>
+    <string name="O2">"O<sub><small><small>2</small></small></sub>"</string>
+
+    
+    <!-- thermal conductivity -->
+    <string name="thermal_conductivity_input_text">Temperature</string>
+    <string name="thermal_conductivity_output_text">"Thermal Conductivity \n (W/(m-K))"</string>
+    
+	<!-- material list -->
+    <string name="aluminum_1100">"Aluminum 1100"</string>
+    <string name="aluminum_3003f_5083_6061T6">"Aluminum \n<small><small>"(3003F, 5083, 6061-T6)"</small></small></string>
+    <string name="aluminum_3003f">"Aluminum 3003F"</string>
+    <string name="aluminum_5083">"Aluminum 5083"</string>
+    <string name="aluminum_6061_T6">"Aluminum 6061-T6"</string>
+    <string name="aluminum_6063_T5">"Aluminum 6063-T5"</string>
+    <string name="apiezon_n">"Apiezon N"</string>
+    <string name="balsa_density_6">"Balsa <small><small>(@ density 6 lb/ft<small><sup>3</sup></small>)</small></small>"</string>
+    <string name="balsa_density_11">"Balsa <small><small>(@ density 11 lb/ft<small><sup>3</sup></small>)</small></small>"</string>
+    <string name="beryllium">Beryllium</string>
+    <string name="beryllium_a_axis">Beryllium \n<small><small>(//a-axis)</small></small></string>
+    <string name="beryllium_c_axis">Beryllium \n<small><small>(//c-axis)</small></small></string>
+    <string name="beryllium_polyscrystalline">Beryllium \n<small><small>(Polycrystalline)</small></small></string>
+    <string name="beechwood_phenolic_cross_laminate_grain_direction">Beechwood-Phenolic \n<small><small>(cross-laminate [0/90], grain direction)</small></small></string>
+    <string name="beechwood_phenolic_cross_laminate_flatwise">Beechwood-Phenolic \n<small><small>(cross-laminate [0/90], flatwise)</small></small></string>
+	<string name="beechwood_phenolic_unidirectional_flatwise">Beechwood-Phenolic \n<small><small>(unidirectional, flatwise)</small></small></string>
+	<string name="beechwood_phenolic_unidirectional_grain_direction">Beechwood-Phenolic \n<small><small>(unidirectional, grain direction)</small></small></string>
+	<string name="beryllium_copper">Beryllium Copper</string>
+    <string name="brass">Brass</string>
+    <string name="copper">Copper</string>
+    <string name="copper_RRR_50">Copper <small><small>(RRR = 50)</small></small></string>
+    <string name="copper_RRR_100">Copper <small><small>(RRR = 100)</small></small></string>
+    <string name="copper_RRR_150">Copper <small><small>(RRR = 150)</small></small></string>
+    <string name="copper_RRR_300">Copper <small><small>(RRR = 300)</small></small></string>
+    <string name="copper_RRR_500">Copper <small><small>(RRR = 500)</small></small></string>
+    <string name="fiberglass_epoxy">Fiberglass Epoxy"</string>
+    <string name="fiberglass_epoxy_normal_direction">Fiberglass Epoxy \n<small><small>(Normal Direction)</small></small></string>
+    <string name="fiberglass_epoxy_warp_direction">Fiberglass Epoxy \n<small><small>(Warp Direction)</small></small></string>
+    <string name="glass_fabric_polyester_helium_warp_direction">Glass Fabric - Polyester \n<small><small>(Helium, Warp Direction)</small></small></string>
+    <string name="glass_fabric_polyester_nitrogen_warp_direction">Glass Fabric - Polyester \n<small><small>(Nitrogen, Warp Direction)</small></small></string>
+    <string name="glass_fabric_polyester_nitrogen_normal_direction">Glass Fabric - Polyester \n<small><small>(Nitrogen, Normal Direction)</small></small></string>
+    <string name="glass_fabric_polyester_normal_direction">Glass Fabric - Polyester \n<small><small>(Normal Direction)</small></small></string>
+    <string name="glass_fabric_polyester_warp_direction">Glass Fabric - Polyester \n<small><small>(Warp Direction)</small></small></string>
+    <string name="glass_mat_epoxy_chopped_strand_mat">Glass mat-epoxy \n<small><small>(chopped strand mat)</small></small></string>
+    <string name="glass_mat_epoxy_continuous_strand">Glass mat-epoxy \n<small><small>(continuous strand)</small></small></string>
+    <string name="indium">Indium</string>
+    <string name="inconel_718">Inconel 718</string>
+    <string name="invar_fe36ni">Invar <small><small>(Fe-36Ni)</small></small></string>
+    <string name="kevlar_49_fiber">Kevlar 49 Fiber</string>
+    <string name="kevlar_49_composite">Kevlar 49 Composite</string>
+    <string name="kevlar_49">Kevlar 49</string>
+    <string name="lead">Lead</string>
+    <string name="molybdenum">Molybdenum</string>
+    <string name="nickel_steel_fe225ni_fe325ni_fe50ni_fe90ni">Nickel Steel \n<small><small>(Fe-2.25 Ni, Fe-3.25 Ni, Fe-5.0 Ni, Fe-9.0 Ni)</small></small></string>
+    <string name="nickel_steel_fe225ni">Nickel Steel <small><small>(Fe-2.25 Ni)</small></small></string>
+    <string name="nickel_steel_fe325ni">Nickel Steel <small><small>(Fe-3.25 Ni)</small></small></string>
+    <string name="nickel_steel_fe50ni">Nickel Steel <small><small>(Fe-5.0 Ni)</small></small></string>
+    <string name="nickel_steel_fe90ni">Nickel Steel <small><small>(Fe-9.0 Ni)</small></small></string>
+    <string name="platinum">Platinum</string>
+    <string name="polyamide_nylon">Polyamide <small><small>(Nylon)</small></small></string>
+    <string name="polyethylene_terephthalate_mylar">Polyethylene Terephthalate <small><small>(mylar)</small></small></string>
+    <string name="polyimide_kapton">Polyimide <small><small>(Kapton)</small></small></string>
+    <string name="polystyrene_density_99_point_96">Polystyrene \n<small><small>(@ density 99.96 kg/m<small><sup>3</sup></small> (=6.24 lb/ft<small><sup>3</sup></small>) )</small></small></string>
+    <string name="polystyrene_density_9_point_93">Polystyrene \n<small><small>(@ density 9.93 kg/m<small><sup>3</sup></small> (=.062 lb/ft<small><sup>3</sup></small>) )</small></small></string>
+    <string name="polystyrene_density_60_point_07">Polystyrene \n<small><small>(@ density 60.07 kg/m<small><sup>3</sup></small> (=3.75 lb/ft<small><sup>3</sup></small>) )</small></small></string>
+    <string name="polystyrene_density_31_point_88">Polystyrene \n<small><small>(@ density 31.88 kg/m<small><sup>3</sup></small> (=1.99 lb/ft<small><sup>3</sup></small> freon filled) )</small></small></string>
+    <string name="polystyrene_density_32_point_04">Polystyrene \n<small><small>(@ density 32.04 kg/m<small><sup>3</sup></small> (=2 lb/ft<small><sup>3</sup></small>) )</small></small></string>
+    <string name="polystyrene_density_49_point_98">Polystyrene \n<small><small>(@ density 49.98 kg/m<small><sup>3</sup></small> (=3.12 lb/ft<small><sup>3</sup></small>) )</small></small></string>
+    <string name="polystyrene_density_51_point_42_temperature_range_in_kelvin_4_to_105">Polystyrene \n<small><small>(@ density 51.42 kg/m<small><sup>3</sup></small> (=3.21 lb/ft<small><sup>3</sup></small>), temperature range= 4°K - 105°K )</small></small></string>
+    <string name="polystyrene_density_51_point_42_temperature_range_in_kelvin_105_to_278">Polystyrene \n<small><small>(@ density 51.42 kg/m<small><sup>3</sup></small> (=3.21 lb/ft<small><sup>3</sup></small>), temperature range= 105°K - 278°K ) )</small></small></string>
+    <string name="polystyrene_density_102_point_2_temperature_range_in_kelvin_4_to_102">Polystyrene \n<small><small>(@ density 102.2 kg/m<small><sup>3</sup></small> (=6.38 lb/ft<small><sup>3</sup></small>), temperature range= 4°K - 102°K )</small></small></string>
+    <string name="polystyrene_density_102_point_2_temperature_range_in_kelvin_102_to_286">Polystyrene \n<small><small>(@ density 102.2 kg/m<small><sup>3</sup></small> (=6.38 lb/ft<small><sup>3</sup></small>), temperature range= 102°K - 286°K )</small></small></string>  
+    <string name="polyurethane_density_49_point_02">Polyurethane \n<small><small>(@ density 49.02 kg/m<small><sup>3</sup></small> (=3.06 lb/ft<small><sup>3</sup></small> He filled) )</small></small></string>
+    <string name="polyurethane_density_389_point_25">Polyurethane \n<small><small>(@ density 389.25 kg/m<small><sup>3</sup></small> (=24.3 lb/ft<small><sup>3</sup></small> air filled) )</small></small></string>   
+    <string name="polyurethane_density_31_point_88">Polyurethane \n<small><small>(@ density 31.88 kg/m<small><sup>3</sup></small> (=1.99 lb/ft<small><sup>3</sup></small> freon filled) )</small></small></string>
+    <string name="polyurethane_density_32_point_04">Polyurethane \n<small><small>(@ density 32.04 kg/m<small><sup>3</sup></small> (=2.0 lb/ft<small><sup>3</sup></small> C0<small><sub>2</sub></small> filled) )</small></small></string>
+    <string name="polyurethane_density_64_point_08">Polyurethane \n<small><small>(@ density 64.08 kg/m<small><sup>3</sup></small> (=4.00 lb/ft<small><sup>3</sup></small> freon filled) )</small></small></string>
+    <string name="polyurethane_density_32_point_04_freon_blown_parallel_to_foam_rise">Polyurethane \n<small><small>(@ density 32.04 kg/m<small><sup>3</sup></small> (=2.0 lb/ft<small><sup>3</sup></small>), Freon blown, parallel to foam rise )</small></small></string>
+    <string name="polyurethane_density_64_point_07_co2_blown_parallel_to_foam_rise">Polyurethane \n<small><small>(@ density 64.07 kg/m<small><sup>3</sup></small> (=4.0 lb/ft<small><sup>3</sup></small>), C0<small><sub>2</sub></small> blown, parallel to foam rise )</small></small></string>
+    <string name="pvc_polyvinyl_chloride">PVC (Polyvinyl Chloride)</string>    
+    <string name="pvc_polyvinyl_chloride_density_48_point_05">PVC (Polyvinyl Chloride) \n<small><small>(@ density 48.05 kg/m<small><sup>3</sup></small> (=3.00 lb/ft<small><sup>3</sup></small>) )</small></small></string>    
+    <string name="pvc_polyvinyl_chloride_density_20_point_02">PVC (Polyvinyl Chloride) \n<small><small>(@ density 20.02 kg/m<small><sup>3</sup></small> (=1.25 lb/ft<small><sup>3</sup></small> air fill gas) )</small></small></string>
+    <string name="pvc_polyvinyl_chloride_density_56_point_06">PVC (Polyvinyl Chloride) \n<small><small>(@ density 56.06 kg/m<small><sup>3</sup></small> (=3.5 lb/ft<small><sup>3</sup></small> CO<small><sub>2</sub></small> filled) )</small></small></string>    
+ 	<string name="sapphire">Sapphire</string>
+    <string name="stainless_steel_304">"Stainless Steel 304"</string>
+    <string name="stainless_steel_304_304l_310_316">"Stainless Steel \n <small><small>(304, 304l, 310, 316)</small></small> "</string>
+    <string name="stainless_steel_304_temperature_range_in_kelvin_5_to_57">"Stainless Steel 304 \n <small><small>(temperature range= 5 K - 57 K)</small></small>"</string>
+    <string name="stainless_steel_304_temperature_range_in_kelvin_57_to_293">"Stainless Steel 304 \n <small><small>(temperature range= 57 K - 293 K)</small></small>"</string>
+    <string name="stainless_steel_304l">"Stainless Steel 304L"</string>
+    <string name="stainless_steel_310">"Stainless Steel 310"</string>
+    <string name="stainless_steel_310_temperature_range_in_kelvin_4_to_47">"Stainless Steel 310 \n <small><small>(temperature range= 4 K - 47 K)</small></small>"</string>
+    <string name="stainless_steel_310_temperature_range_in_kelvin_47_to_300">"Stainless Steel 310 \n <small><small>(temperature range= 47 K - 300 K)</small></small>"</string>
+    <string name="stainless_steel_316">"Stainless Steel 316"</string>
+    <string name="stainless_steel_316_temperature_range_in_kelvin_4_to_50">"Stainless Steel 316 \n <small><small>(temperature range= 4 K - 50 K)</small></small>"</string>
+    <string name="stainless_steel_316_temperature_range_in_kelvin_50_to_300">"Stainless Steel 316 \n <small><small>(temperature range= 50 K - 300 K)</small></small>"</string>
+    <string name="stainless_steel_316_temperature_range_in_kelvin_8_to_50">"Stainless Steel 316 \n <small><small>(temperature range= 8 K - 50 K)</small></small>"</string>
+    <string name="stainless_steel_316_temperature_range_in_kelvin_50_to_294">"Stainless Steel 316 \n <small><small>(temperature range= 50 K - 294 K)</small></small>"</string>
+    <string name="teflon">"Teflon"</string>
+    <string name="ti_6al_4v">"Ti 6Al 4V"</string>
+    <string name="titanium_15_3_3_3">"Titanium 15&#8211;3&#8211;3&#8211;3"</string>
+
+    <string name="calculate">"Calculate"</string>
+    
+    <string name="thermal_conductivity_units">"Thermal conductivity units"</string>
+    <string name="specific_heat_units">"Specific heat units:"</string>
+    
+    <string name="thermal_conductivity_equation">"Thermal conductivity equation:"</string>
+    <string name="specific_heat_equation">"Specific heat equation:"</string>
+    <string name="young_modulus_equation">"Young's modulus equation:"</string>
+    <string name="linear_expansion_equation">"Linear expansion equation:"</string>
+    <string name="expansion_coefficient_equation">"Linear expansion equation:"</string>
+    
+    <!-- several material have the same equation for thermal conductivity, specific heat, coefficient expansion  -->
+    <string name="thermal_conductivity_or_specific_heat_or_coefficient_expansion_equation_common">
+        y = 10 <small><small><sup>(a + b(log<small><sub>10</sub></small>T) + 
+         c(log<small><sub>10</sub></small>T) <small><sup>2</sup></small> +
+         d(log<small><sub>10</sub></small>T) <small><sup>3</sup></small> + 
+         e(log<small><sub>10</sub></small>T) <small><sup>4</sup></small> + 
+         f(log<small><sub>10</sub></small>T) <small><sup>5</sup></small> + 
+         g(log<small><sub>10</sub></small>T) <small><sup>6</sup></small> + 
+         h(log<small><sub>10</sub></small>T) <small><sup>7</sup></small> + 
+         i(log<small><sub>10</sub></small>T) <small><sup>8</sup></small>) 
+         </sup> </small></small>
+         </string>
+    <string name="thermal_conductivity_equation_copper">
+        y = 10 <small><small><sup>(a + cT<small><sup>0.5</sup></small> + 
+         eT + gT<small><sup>1.5</sup></small> + iT<small><sup>2</sup></small>) / 
+         (1 + bT<small><sup>0.5</sup></small> + 
+         dT + fT<small><sup>1.5</sup></small> + hT<small><sup>2</sup></small>)
+         </sup> </small></small>
+         </string>
+     
+    <string name="thermal_conductivity_equation_kevlar_49">
+        y = Log<small><sub>10</sub></small>( 
+         ( a + b(log<small><sub>10</sub></small>T))
+         ((1 - <i> erf* </i>(2(log<small><sub>10</sub></small>T - c)))/2) + 
+         (d+e (exp(-x/f)))
+         (1 + <i> erf* </i>(2(log<small><sub>10</sub></small>T - c)))/2)
+         ) \n\n <small>*erf = Gaussian error function</small> \n
+         </string>
+    
+     <string name="young_modulus_equation_common">
+        y = a + bT + cT<small><sup>2</sup></small> +
+         dT<small><sup>3</sup></small> + 
+         eT<small><sup>4</sup></small> 
+         </string>
+         
+     <string name="linear_expansion_equation_common">            
+        T<sub><small><small>low</small></small></sub> > T \t 
+         y = f> \n
+        T > T<sub><small><small>low</small></small></sub> \t
+         y = a + bT + cT<small><sup>2</sup></small> +
+         dT<small><sup>3</sup></small> + 
+         eT<small><sup>4</sup></small> 
+         </string>
+    
+    <string name="temperature_with_kelvin">t (K)</string>
+    <string name="material">Material</string>
+    <string name="temperature_lower_with_kelvin">t<sub><small><small>lower</small></small></sub><small><small>(K)</small></small></string>
+    <string name="temperature_upper_with_kelvin">t<sub><small><small>upper</small></small></sub><small><small>(K)</small></small></string>
+    <string name="shape">Shape* </string>
+    <string name="cross_sectional">*Cross sectional area</string>
+    <string name="circular">Circular</string>
+    <string name="rectangular">Rectangular</string>
+    <string name="square">Square</string>
+    <string name="length">Length <small><small>(m)</small></small></string>
+    <string name="diameter">Diameter* <small><small>(m)</small></small></string>
+    <string name="radius">Radius* <small><small>(m)</small></small></string>
+    <string name="height">Height* <small><small>(m)</small></small></string>
+    <string name="width">Width* <small><small>(m)</small></small></string>
+    <string name="inner_radius">Inner radius* <small><small>(m)</small></small></string>
+    <string name="rod">Rod <small><small>(m)</small></small></string>
+    <string name="outer_radius">Outer radius* <small><small>(m)</small></small></string>
+    <string name="area_with_star">Area* <small><small>(m<sup><small><small>2</small></small></sup>)</small></small></string>
+    <string name="area">Area <small><small>(m<sup><small><small>2</small></small></sup>)</small></small></string>
+    <string name="select_shape">Select shape</string>
+    <string name="select_material">Select material</string>
+    <string name="m_power_two">m<sup><small><small>2</small></small></sup></string>
+    
+    <string name="temperature_lower">t<sub><small><small><small>lower</small></small></small></sub></string>
+    <string name="temperature_upper">t<sub><small><small><small>upper</small></small></small></sub></string>
+   
+    <string name="t_low_k">t<sub><small><small><small>low</small></small></small></sub> (K)</string>
+
+    <string name="linear_expansion_units">"[(L-L<sub><small><small><small>293</small></small></small></sub>)/
+        L<sub><small><small><small>293</small></small></small></sub>)] x 10<sup><small><small><small>5</small></small></small></sup>
+        unitless, eq. m/m
+        </string>
+    
+    <string name="expansion_coefficient_units">"(1/K)x10<sup><small><small><small>-6</small></small></small></sup>"</string>
+    
+    <string name="about_cryocalc_text">CryoCalc is developed by CryoVac.
+        CryoCalc is an application for cryogenic properties.\n
+        <b>Reference\n</b>
+        *Cryogenic fluid properties are based from <i>Tieftemperaturtechnologie</i> book 
+        (ISBN 3184005038, 9783184005030).\n
+        *Calculation method and material data for the following calculations: \n
+        - thermal conductivity, \n
+        - specific heat, \n
+        - young\'s modulus, \n
+        - linear expansion, and \n
+        - expansion coefficient. \n
+        are based from the Cryogenic Technologies Group for the 
+        National Institute of Standards and Technology (NIST) database 
+     	which is available in the following link
+        </string>
+      <string name="nist_website">cryogenics.nist.gov</string>  
+      <string name="cryovac_website">www.cryovac.de</string>
+      <string name="by_cryovac">by CryoVac</string>
+      
+     <string name="about_cryocalc_title">CryoCalc 1.0</string>
+     <string name="about_cryovac_title">CryoVac GmbH &amp; Co KG</string>
+     
+     <string name="about_cryovac_text">
+         CryoVac Gesellschaft für Tieftemperaturtechnik mbH &amp; Co KG resp. Cryovac low temperature technologies inc. 
+         was founded in January 1975 in Troisdorf near Cologne, Germany. Its purpose was and still remains to be the 
+         development and manufacturing of cryogenic and vacuum equipment for research and industrial applications. \n \n
+
+		Nowadays, as a result of 25 years of building the widest range of cryogenic and vacuum components, 
+		Cryovac instruments and plants which are in operation in numerous laboratories across Europe have 
+		firmly established our reputation for high quality.\n \n
+
+	Our current product range (excerpt):\n
+    - Helium Bath Cryostats \n
+    - KONTI* Cryostats \n
+    - Closed Cycle Refrigerators\n
+    - Portable and Larger <sup><small><small>3</small></small></sup>He Cryostats\n
+    - Lines and Transfer Tubes for Liquified Gasses\n
+    - Cryopumps\n
+    - Temperature Measurement, Control Instruments and Temp. Sensors\n
+    - Helium Recovery Systems \n
+	 <small>*continuous flow </small> \n \n
+	 
+	In addition, CryoVac offers a range of low temperature equipment from reliable manufacturers 
+	- standalone instruments as well as parts of larger cryogenic plants such as:\n
+    - Superconducting Magnets and Control Units \n
+    - Cryogenic Liquid Level Meters and Controllers \n
+    - Cryogenic Equipment \n
+    - Vacuum Equipment  \n \n
+
+	CryoVac\'s R &amp; D department is ready to help you in solving your particular cryogenic problem, 
+	no matter if it is the dimensioning of a transfer line, the performing of a thermal study for an industrial plant, 
+	the designing of a turn-key automatic cryogenic measurement system or any other cryogenic or vacuum project. \n \n
+
+	From the beginning CryoVac\'s particular skill was the development and manufacturing of custom designed cryogenic 
+	and vacuum systems of highest quality and so will be in the future... \n \n
+	
+	Contact:\n
+	CryoVac GmbH &amp; Co KG \n
+	Heuserweg 14 \n
+	D-53842 Troisdorf \n 
+	Fone: +49 (0) 2241 84673-0 \n
+	Fax: +49 (0) 2241 84 673-29 \n 
+	
+	Website 
+    </string>
+    
+    <string name="meter_cubic">m<sup><small><small>3</small></small></sup></string>
+    <string name="volumetric_gas_to_liquid_ratio_at_273K_at100kPa_from_1cubicmeter_liquid_text">
+        Volumetric Gas to Liquid Ration at 273K, 100kPa from 1 m<sup><small><small>3</small></small></sup> 
+        liquid
+        (m<sup><small><small>3</small></small></sup> / m<sup><small><small>3</small></small></sup>)
+    	</string>
+</resources>

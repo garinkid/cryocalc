@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background" >
+	
+    <LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:id="@+id/select_fluid_button_layout"
+		android:padding="10dp"
+		android:orientation="vertical">
+		<Button      
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:id="@+id/selected_fluid" 
+			android:text="@string/select_fluid"
+			style="@style/button_centered_xlarge">
+		</Button> 
+	</LinearLayout>
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:layout_below="@id/select_fluid_button_layout">
+	  	    <TableLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">  
+            <TableRow>
+	            <include layout="@layout/common_table_title_content_layout" android:layout_width = "0dp" android:layout_height= "fill_parent" android:layout_weight= "1" android:id="@+id/cryogenic_table_title" />
+			</TableRow>
+	        <TableRow>
+	            <include layout="@layout/common_table_left_content_layout" android:layout_width = "0dp" android:layout_weight= "4" android:layout_height= "fill_parent" android:id="@+id/molecular_weight_text" />
+	            <include layout="@layout/common_table_right_content_layout" android:layout_width = "0dp" android:layout_weight= "2" android:layout_height= "fill_parent" android:id="@+id/molecular_weight_value" />
+			</TableRow> 
+			<TableRow>
+	            <include layout="@layout/common_table_left_content_layout" android:layout_width = "0dp" android:layout_weight= "4" android:layout_height= "fill_parent" android:id="@+id/boiling_temperature_at_100_kPa_text" />
+	            <include layout="@layout/common_table_right_content_layout" android:layout_width = "0dp" android:layout_weight= "2" android:layout_height= "fill_parent" android:id="@+id/boiling_temperature_at_100_kPa_value" />
+			</TableRow> 
+			
+			<TableRow>
+	            <include layout="@layout/common_table_left_content_bold_layout" android:layout_width = "0dp" android:layout_height= "fill_parent" android:layout_weight= "1" android:id="@+id/critical_point_properties_text" />
+			</TableRow>
+			<TableRow>
+	            <include layout="@layout/common_table_left_content_layout" android:layout_width = "0dp" android:layout_weight= "4" android:layout_height= "fill_parent" android:id="@+id/critical_point_temperature_text" />
+	            <include layout="@layout/common_table_right_content_layout" android:layout_width = "0dp" android:layout_weight= "2" android:layout_height= "fill_parent" android:id="@+id/critical_point_temperature_value" />
+			</TableRow> 
+			<TableRow>
+	            <include layout="@layout/common_table_left_content_layout" android:layout_width = "0dp" android:layout_weight= "4" android:layout_height= "fill_parent" android:id="@+id/critical_point_pressure_text" />
+	            <include layout="@layout/common_table_right_content_layout" android:layout_width = "0dp" android:layout_weight= "2" android:layout_height= "fill_parent" android:id="@+id/critical_point_pressure_value" />
+			</TableRow> 
+			
+			<TableRow>
+	            <include layout="@layout/common_table_left_content_bold_layout" android:layout_width = "0dp" android:layout_height= "fill_parent" android:layout_weight= "1" android:id="@+id/triple_point_properties_text" />
+			</TableRow>
+			<TableRow>
+	            <include layout="@layout/common_table_left_content_layout" android:layout_width = "0dp" android:layout_weight= "4" android:layout_height= "fill_parent" android:id="@+id/triple_point_temperature_text" />
+	            <include layout="@layout/common_table_right_content_layout" android:layout_width = "0dp" android:layout_weight= "2" android:layout_height= "fill_parent" android:id="@+id/triple_point_temperature_value" />
+			</TableRow> 
+			<TableRow>
+	            <include layout="@layout/common_table_left_content_layout" android:layout_width = "0dp" android:layout_weight= "4" android:layout_height= "fill_parent" android:id="@+id/triple_point_pressure_text" />
+	            <include layout="@layout/common_table_right_content_layout" android:layout_width = "0dp" android:layout_weight= "2" android:layout_height= "fill_parent" android:id="@+id/triple_point_pressure_value" />
+			</TableRow> 
+			
+		    <TableRow>
+	            <include layout="@layout/common_table_left_content_bold_layout" android:layout_width = "0dp" android:layout_height= "fill_parent" android:layout_weight= "1" android:id="@+id/density_properties_text" />
+			</TableRow>
+			<TableRow>
+	            <include layout="@layout/common_table_left_content_layout" android:layout_width = "0dp" android:layout_weight= "4" android:layout_height= "fill_parent" android:id="@+id/density_gas_at_273K_at_100kPa_text" />
+	            <include layout="@layout/common_table_right_content_layout" android:layout_width = "0dp" android:layout_weight= "2" android:layout_height= "fill_parent" android:id="@+id/density_gas_at_273K_at_100kPa_value" />
+			</TableRow> 
+			<TableRow>
+	            <include layout="@layout/common_table_left_content_layout" android:layout_width = "0dp" android:layout_weight= "4" android:layout_height= "fill_parent" android:id="@+id/density_critical_point_text" />
+	            <include layout="@layout/common_table_right_content_layout" android:layout_width = "0dp" android:layout_weight= "2" android:layout_height= "fill_parent" android:id="@+id/density_critical_point_value" />
+			</TableRow> 
+			<TableRow>
+	            <include layout="@layout/common_table_left_content_layout" android:layout_width = "0dp" android:layout_weight= "4" android:layout_height= "fill_parent" android:id="@+id/density_vapor_at_boiling_point_text" />
+	            <include layout="@layout/common_table_right_content_layout" android:layout_width = "0dp" android:layout_weight= "2" android:layout_height= "fill_parent" android:id="@+id/density_vapor_at_boiling_point_value" />
+			</TableRow> 
+			<TableRow>
+	            <include layout="@layout/common_table_left_content_layout" android:layout_width = "0dp" android:layout_weight= "4" android:layout_height= "fill_parent" android:id="@+id/density_liquid_at_boiling_point_text" />
+	            <include layout="@layout/common_table_right_content_layout" android:layout_width = "0dp" android:layout_weight= "2" android:layout_height= "fill_parent" android:id="@+id/density_liquid_at_boiling_point_value" />
+			</TableRow> 
+			<TableRow>
+	            <include layout="@layout/common_table_left_content_layout" android:layout_width = "0dp" android:layout_weight= "4" android:layout_height= "fill_parent" android:id="@+id/density_solid_at_melting_point_text" />
+	            <include layout="@layout/common_table_right_content_layout" android:layout_width = "0dp" android:layout_weight= "2" android:layout_height= "fill_parent" android:id="@+id/density_solid_at_melting_point_value" />
+			</TableRow> 
+			<TableRow>
+	            <include layout="@layout/common_table_left_content_layout" android:layout_width = "0dp" android:layout_weight= "4" android:layout_height= "fill_parent" android:id="@+id/density_volumetric_gas_to_liquid_ratio_at_273K_at100kPa_from_1cubicmeter_liquid_text" />
+	            <include layout="@layout/common_table_right_content_layout" android:layout_width = "0dp" android:layout_weight= "2" android:layout_height= "fill_parent" android:id="@+id/density_volumetric_gas_to_liquid_ratio_at_273K_at100kPa_from_1cubicmeter_liquid_value" />
+			</TableRow> 
+
+			<TableRow>
+	            <include layout="@layout/common_table_left_content_bold_layout" android:layout_width = "0dp" android:layout_height= "fill_parent" android:layout_weight= "1" android:id="@+id/latent_heat_properties_text" />
+			</TableRow>			
+			<TableRow>
+	            <include layout="@layout/common_table_left_content_layout" android:layout_width = "0dp" android:layout_weight= "4" android:layout_height= "fill_parent" android:id="@+id/latent_heat_evaporation_at_boiling_point_text" />
+	            <include layout="@layout/common_table_right_content_layout" android:layout_width = "0dp" android:layout_weight= "2" android:layout_height= "fill_parent" android:id="@+id/latent_heat_evaporation_at_boiling_point_value" />
+			</TableRow> 
+			<TableRow>
+	            <include layout="@layout/common_table_left_content_layout" android:layout_width = "0dp" android:layout_weight= "4" android:layout_height= "fill_parent" android:id="@+id/latent_heat_liquefy_at_melting_point_text" />
+	            <include layout="@layout/common_table_right_content_layout" android:layout_width = "0dp" android:layout_weight= "2" android:layout_height= "fill_parent" android:id="@+id/latent_heat_liquefy_at_melting_point_value" />
+			</TableRow> 
+			<TableRow>
+	            <include layout="@layout/common_table_left_content_layout" android:layout_width = "0dp" android:layout_weight= "4" android:layout_height= "fill_parent" android:id="@+id/latent_heat_evaporation_entropy_text" />
+	            <include layout="@layout/common_table_right_content_layout" android:layout_width = "0dp" android:layout_weight= "2" android:layout_height= "fill_parent" android:id="@+id/latent_heat_evaporation_entropy_value" />
+			</TableRow> 
+		 </TableLayout>
+    </ScrollView>
+</RelativeLayout>

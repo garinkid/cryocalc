@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cryovac.calc"
+    android:versionCode="1"
+    android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" 
+        	  android:targetSdkVersion ="8"/>
+    <support-screen   
+        android:normalScreens="true"
+        android:smallScreens="false"
+       	android:largeScreens= "false"
+        android:resizeable="false"
+        />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application android:icon="@drawable/ic_launcher" android:label="@string/app_name">
+        
+        <activity android:name=".SplashScreen" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".CryoCalcMain" android:label="@string/app_name" />
+        
+        <activity android:name=".About" android:label="@string/app_name" />
+        
+        <activity android:name=".CryogenicFluidProperties" android:label="@string/app_name" />
+                
+        <activity android:name=".ThermalConductivity" android:label="@string/app_name" android:windowSoftInputMode="stateHidden"/>
+        
+        <activity android:name=".SpecificHeat" android:label="@string/app_name" android:windowSoftInputMode="stateHidden"/>
+        
+        <activity android:name=".HeatFlowCalc" android:label="@string/app_name" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        
+        <activity android:name=".YoungModulus" android:label="@string/app_name" android:windowSoftInputMode="stateHidden"/>
+        
+        <activity android:name=".LinearExpansion" android:label="@string/app_name" android:windowSoftInputMode="stateHidden"/>
+        
+        <activity android:name=".ExpansionCoefficient" android:label="@string/app_name" android:windowSoftInputMode="stateHidden"/>
+    </application>
+
+</manifest>
